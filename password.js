@@ -1,7 +1,7 @@
-const password = document.querySelector("inputPassword");
+const password = document.querySelector(".password");
 
 function passwordCheck(password) {
-    if (password === "12345678") {
+    if (password.value === "12345678") {
       //correct pw
       button.innerHTML = "Correct!";
     } else {
