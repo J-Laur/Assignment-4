@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<main id="main">
+    
+<head>
+    <meta charset="utf-8">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    <title>Who are you??</title>
+    <script src="password.js"></script>
+</head>
+
+<body>
+    <h1 style="color:rgb(34, 0, 128)">
+        Please enter the information below:
+    </h1>
+
+    <form id="pass">
+        <div class="row g-3 align-items-center">
+            <div class="col-auto">
+                <label for="inputEmail" class="col-form-label">Email</label>
+            </div>
+        <div class="col-auto">
+      
+            <input type="inputEmail" id="inputPassword" class="form-control" aria-describedby="passwordHelpInline">
+        </div>
+        <div class="row g-3 align-items-center">
+            <div class="col-auto">
+            <label for="inputUsername" class="col-form-label">Username</label>
+        </div>
+        <div class="col-auto">
+      
+            <input type="username" id="inputUsername" class="form-control" aria-describedby="nameHelpInline">
+        </div>
+    
+        <div class="row g-3 align-items-center">
+            <div class="col-auto">
+                <label for="inputPassword" class="col-form-label">Password</label>
+            </div>
+        <div class="col-auto">
+      
+            <input type="password" id="inputPassword" class="form-control" aria-describedby="passwordHelpInline">
+        </div>
+    
+        <div class="col-auto">
+            <span id="passwordHelpInline" class="form-text">
+            Password must be 8-20 characters long.
+            </span>
+        </div>
+        </div>
+    </form>
+    <button type="submit"onclick="passwordCheck(password)" onclick="changeH1()">Submit</button>
+</body>
+</html>
+</main>

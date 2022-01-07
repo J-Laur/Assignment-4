@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<main id="main">
+    
+<head>
+    <meta charset="utf-8">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    <title>Who's right?</title>
+</head>
+
+<body>
+    <p id="btn">
+    <button type="button" id="btn" class="btn btn-primary" onclick="changeText(this)">Click</button>
+    <script>
+        function changeText(id) {
+          id.innerHTML = "I'm right!";
+        //document.getElementById("btn").innerText = "I'm right!";
+        }
+        </script>
+    </p>
+
+    <p id="btn2">
+    <button type="button" id2="btn2" class="btn btn-secondary" onclick="changeText(this)">Press</button>
+    <script>
+        function changeText(id2) {
+            id2.innerHTML = "No, I'm right!";
+            //document.getElementById("btn2").innerText = "No, I'm right!";
+        }
+        </script>
+    </p>
+
+</body>
+</main>
